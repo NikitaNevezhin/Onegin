@@ -7,11 +7,13 @@
 
 #include "Myqsort.cpp"
 
-#define MAX_LINES 100
+#define MAX_LINES 4540
 #define LINE_LENGTH 256
 #define BUFFER_SIZE 1000
 
 int     ReadFromFile    (const char* filename, char* destination[]);
+
+int     WriteIntoFile   (const char* filename, char* source[], int lines);
 
 void    PrintStrings    (char* strings[], int n);
 
@@ -19,17 +21,17 @@ int     CompareLines    (const void* s1_value, const void* s2_value);
 
 int main(void)
 {   
-    printf("Main executing...\n");
+    // printf("Main executing...\n");
     char* original_indexes[MAX_LINES] = {};
     char* working_indexes[MAX_LINES] = {};
 
-    const char filename[LINE_LENGTH] = "test_text.txt";
+    const char readfile[LINE_LENGTH] = "RawOneginText.txt";
+    const char writefile[LINE_LENGTH] = "SortedOnegin.txt";
 
-    int informative_lines = ReadFromFile(filename, original_indexes);
+    int informative_lines = ReadFromFile(readfile, original_indexes);
     // PrintStrings(original_indexes, MAX_LINES);
-
     Myqsort(original_indexes, 0, informative_lines - 1, sizeof(original_indexes[0]), CompareLines);
-    PrintStrings(original_indexes, informative_lines);
+    WriteIntoFile(writefile, original_indexes, informative_lines);
 
     return 0;
 }
@@ -52,6 +54,17 @@ int ReadFromFile(const char* filename, char* destination[])
     fclose(file);
 
     return nLines;
+}
+
+int WriteIntoFile(const char* filename, char* source[], int lines)
+{
+    FILE *file = fopen(filename, "w");
+
+    if (file)
+    {
+        for (int i = 0; i < lines; i++)
+            fputs(source[i], file);
+    }
 }
 
 void PrintStrings(char* strings[], int n)
