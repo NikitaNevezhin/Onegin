@@ -59,7 +59,10 @@ int main(void)
 }
 
 int ReadFromFile(const char* filename, char* destination[])
-{
+{   
+    assert(filename);
+    assert(destination);
+
     char buffer[BUFFER_SIZE] = {};
 
     FILE *file = fopen(filename, "r");
@@ -79,7 +82,10 @@ int ReadFromFile(const char* filename, char* destination[])
 }
 
 int WriteIntoFile(const char* filename, char* source[], int lines)
-{
+{   
+    assert(filename);
+    assert(source);
+
     FILE *file = fopen(filename, "a");
 
     if (file)
@@ -90,7 +96,9 @@ int WriteIntoFile(const char* filename, char* source[], int lines)
 }
 
 void PrintStrings(char* strings[], int n)
-{
+{   
+    assert(strings);
+
     for (int i = 0; i < n; i++)
     {   
         if (strings[i])
@@ -100,6 +108,9 @@ void PrintStrings(char* strings[], int n)
 
 int CompareLines(const void* s1_value, const void* s2_value)
 {   
+    assert(s1_value);
+    assert(s2_value);
+
     char* s1 = *(char**)s1_value;
     char* s2 = *(char**)s2_value;
     // printf("s1 = %s", s1);
@@ -135,7 +146,10 @@ int CompareLines(const void* s1_value, const void* s2_value)
 }
 
 int CompareLinesByEnd(const void* s1_value, const void* s2_value)
-{
+{   
+    assert(s1_value);
+    assert(s2_value);
+
     char* s1 = *(char**)s1_value;
     char* s2 = *(char**)s2_value;
     
@@ -177,13 +191,17 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
 
 void ClearFile(const char* filename)
 {
+    assert(filename);
+
     FILE* file = fopen(filename, "w");
     assert(file);
     fclose(file);
 }
 
 void WriteDelimeter(const char* filename)
-{
+{   
+    assert(filename);
+
     FILE* file = fopen(filename, "a");
     fputc('\n', file);
     for (int i = 0; i < 40; i++)
