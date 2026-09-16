@@ -50,6 +50,7 @@ int main(void)
 
     Myqsort(working_indexes, 0, informative_lines - 1, sizeof(working_indexes[0]), CompareLinesByEnd);
     WriteIntoFile(writefile, working_indexes, informative_lines);
+    PrintStrings(working_indexes, informative_lines);
 
     WriteDelimeter(writefile);
 
@@ -93,6 +94,7 @@ int WriteIntoFile(const char* filename, char* source[], int lines)
         for (int i = 0; i < lines; i++)
             fputs(source[i], file);
     }
+    fclose(file);
 }
 
 void PrintStrings(char* strings[], int n)

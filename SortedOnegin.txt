@@ -2163,7 +2163,7 @@
    Just so! that modest swain is blest
    Keep your accounts! You'd rather not?
    Kept lingering on as loath to go,
-   Kept the accounts, shaved many a crown,()
+   Kept the accounts, shaved many a crown,(*)
    Kibitkas three, the accustomed train,
    Killed! at this dreadful exclamation
    Knew not an iamb from a choree,
@@ -3459,7 +3459,7 @@
    Then became busy with the house,
    Then be it so! My destiny
    "Then come with me." The prince proceeds,
-   Then dressed himself...()
+   Then dressed himself...(*)
    The needle nor, o'er framework bent,
    The neighbourhood fresh sport derived.
    The neighbours come, in sledge approach,
@@ -4426,7 +4426,118 @@
    With quite a lachrymose expression
    With rapturous longing he awaits,
    With raspberries, cherries.
-   With roses, 
+   With roses, caps and looks malign;
+   With sad refrain misfortune near.
+   With satisfaction marvellous,
+   With scandal's trivial ornament.
+   With serious air then went away
+   With so much warmth and intellect?
+   With spiritual tenderness;
+   With such a perversity proclaim.
+   With sudden flush her cheeks suffuse,
+   With taffety instead of crape.
+   With tears, confused emotions, bliss,-
+   With tears which secret sufferers love-
+   With tenderness hath recognized
+   With the epistle of my fair;
+   With the "Well-Wisher" in her hand!
+   With this immoderate request
+   With this unpleasant _tête-à-tête_,
+   With thoughts of a far distant land,
+   With tranquil air Onéguine leads
+   With tumult or contentment still
+   With unanimity complete,
+   With us is easily attained.
+   With us 'tis quite a novelty
+   With "vale" finish off a note;
+   With what avidity and zest
+   With which blind Fortune oft betrays
+   With words of foreign origin
+   With worldly honours, it may be,
+   Would agitate a mystic wreath
+   Would at the proper time appear.
+   Would haste in agitation dire
+   Would loiter by the looking-glass,
+   Would lose his slippers or gazette.
+   Would once in powdered wig appear;
+   Would she in silence long remain.
+   Would she the canvas tight enrich
+   Would soothe the doubtings of his soul,
+   Would you to me this Phyllis show,
+   Wrapped in their sheepskins soundly sleep.
+   Wrapt in oblivion complete,
+   Writ in my honour now and then-
+   Yawning betook him to a pen.
+   Yea! although rendered beauteous
+   Yea! and a man of honour, lo!
+   Years have inclined me to stern prose,
+   Years to light rhyme themselves oppose,
+   Ye billows of blue Hadria's sea,
+   Ye dreams of heavenly poesy?
+   Ye feel but little interest,
+   Ye golden days of my young spring?
+   Yelping, a pack of dogs rush out,
+   Ye men of fashion cynical,
+   Ye miracles of courtly grace,
+   Ye mothers also, caution use,
+   Ye need dissimulation base
+   "Ye peaceful valleys all, good-bye!
+   Yes! every one must have his foes,
+   Yes! for our unpretending home,
+   Ye shadows of a life more high,
+   Yes, happy-though she at his side
+   Yet clearer shines than every light
+   Yet curses on his fate bestowing,
+   Yet dares not, dedicate its strain,
+   Yet ghastlier, yet more wonderful,
+   Yet let us part in friendship, O
+   Yet on a frosty winter day
+   Yet satiated with success,
+   Yet sometimes banished hopes will rise
+   Yet sometimes pages two or three
+   Yet sometimes this or that deceit
+   Yet still apparently aspire
+   Yet still her heart, which torments tear,
+   Yet still of anecdotes a treasure
+   Yet still remains the old despair.
+   Yet suffering emotional
+   Yet viewing her from head to foot,
+   Yet was her inmost soul o'erjoyed
+   Yet with a feigned frigidity
+   Ye well-known mountain summits high,
+   Yonder the household lad doth run,
+   Yon silly moon upon the brink
+   You choose."-"But who is she?"-"My wife."
+   You fall in love again. But still-
+   "You have a letter to me sent.
+   You, he a noble mind disclosed,
+   You in the least commiserate
+   You'll spend your winter famously!
+   You never since your nose have shown.
+   You never would have heard the name,
+   Young ladies' faces and their feet.
+   Young ladies, if ye ever strove
+   Young ladies in a vasty curve,
+   Young maidens, fair maidens,
+   You o'er your wine insulted hath-
+   Your conversation cold and hard,
+   Your innocent and charming note
+   "Your second you have left behind!"
+   Your smiling lips, your beaming eyes,
+   Your steed, though rough-shod, cannot keep
+   Youth freshens beneath Passion's showers,
+   You will not all abandon me.
+   You with stern countenance declare
+   Zaretski and Monsieur Guillot
+   Zaretski bit his lip in wrath,
+   Zaretski, once a bully bold,
+   Zaretski paces thirty-two
+   Zaretski rose, nor would explain,
+   Zaretski shouted: "Why, he's killed!"-
+   Zaretski, village mechanician,
+   Zaretski with a knowing grin,
+   Zizi, thou mirror of my mind,
+
 DELIMETER****************************************
     
    Nor Byron, Walter Scott, nor Seneca,
@@ -6371,7 +6482,7 @@ DELIMETER****************************************
    The family of Kharlikoff,
    To write of any other elf
    Than one's own fascinating self.
-   Then dressed himself...()
+   Then dressed himself...(*)
    Stood as estranged from all aloof,
    Even beneath her parents' roof
    Came with Monsieur Triquet, a prig,
@@ -7140,7 +7251,7 @@ DELIMETER****************************************
    For o'er a word to fashion known,
    And bitter torment never known.
    What everybody long has known;
-   Kept the accounts, shaved many a crown,()
+   Kept the accounts, shaved many a crown,(*)
    She bows her head beneath the crown;
    On raptures, sorrows not her own,
    Have one by one all withered grown
@@ -8847,7 +8958,127 @@ DELIMETER****************************************
    "What! Grandison?"-"Yes, certainly!"
    The reaping girls approach and ply
    Prevailed at last. She in reply
-   A
+   As for her spouse he loved her dearly,
+   Thou fairy-land! Where formerly
+   From habit or maliciously,
+   Or into bold hands anxiously
+   You'll spend your winter famously!
+   Known unto children perfectly:
+   "Then send your grandson quietly
+   Tattiana suffered secretly;
+   Then he'd malign them secretly
+   To lay two covers secretly.
+   Turned to her and discordantly
+   Grasped a long knife and instantly
+   Conduct Tattiana constantly,
+   The same warm vision constantly;
+   Employ your glasses constantly,
+   She cannot-then impatiently
+   He drops his pistol silently.
+   With clouded brow stands silently?
+   Around her neck, now violently
+   "And he-but of him presently-
+   And of the attic. Honestly,
+   Three balls a year he gave ye duly,
+   Having performed his service truly,
+   The artifice of villany-
+   He brought from mystic Germany
+   The captain of a company.
+   But who in that choice company
+   There, in that knot of company,
+   Wallow, my friends, in company!
+   The man and liked his company,
+   Thou hast resigned thy destiny
+   Then be it so! My destiny
+   Aunts, mothers and their scrutiny,
+   There is no stupid calumny
+   She loved upon the balcony
+   Hath whiled the road's monotony,
+   Not a mere hot, pugnacious boy,
+   Which in the winter were a joy:
+   A labour, torment, yet a joy,
+   Sang childhood's pastimes and its joy,
+   Now for the jealous youth what joy!
+   Wherefore? She found a secret joy
+   Thus Nature doth our souls alloy,
+   The happiest days of life employ?
+   The chaise long ordered please employ,
+   Fearing his pupil to annoy,
+   The feeble moment would espy
+   And following them ye might espy
+   Must now my stanzas occupy.
+   But more the passions occupy
+   Drive on! the city barriers hoary
+   She strains her throat to force a cry-
+   Dark shadows thicken-a dread cry
+   And wakened him with the loud cry:
+   Heedless of your despairing cry?
+   Of clarinet or flute doth cry:
+   Grow harsh and cruel, dead and dry,
+   But my Tattiana's eyes were dry.
+   Beneath a cross and shrubbery.
+   Upon the windows tracery,
+   By night prepared for sorcery,
+   But scarce had sleep's soft witchery
+   And turned aside the drapery;
+   The clue unto some mystery
+   To be a charming mystery:
+   With ardent sighs and flattery
+   Alike by sighs and flattery.
+   _Sed alia tempora_. And bravery
+   There dwells five versts from Krasnogory,
+   Adieu, thou witness of our glory,
+   But, her own room in memory,
+   Here, drunk with his late victory,
+   Relate some ancient history."
+   Haste, haste thy lagging pace, my story!
+   That Nina's marble symmetry,
+   Fragments of northern poetry,
+   And platitudes and pedantry,
+   He feared the criminal might try
+   Will pass; the same to-morrow try-
+   Byron's capricious phantasy
+   Carried away by ecstasy,
+   Ye dreams of heavenly poesy?
+   Must bow in common courtesy;
+   Hope to conceal and jealousy,
+   By the sick lady's gaiety
+   With jealous fear, anxiety.
+   But man of sense and probity.
+   Upon its damp opacity,
+   This, this were true felicity!
+   Before such fond simplicity
+   Charming with grave simplicity.
+   And mental elasticity.
+   Of Russian domesticity;
+   Yet with a feigned frigidity
+   Cursing his own stupidity,
+   (Nonsense and pure absurdity,
+   Discovered much absurdity,
+   By dull insensibility,
+   And then with blind credulity
+   And husbands' tedious amity?
+   But grant with magnanimity
+   And naked uniformity.
+   The blessings of humanity.
+   By his embarrassed dignity-
+   Of old maids the divinity,
+   Passed into dull eternity,
+   Have echoed to eternity.
+   Hears not my importunity!
+   As giddy youth's hilarity-
+   Charming is your sincerity,
+   As Winter in their purity,
+   Dreams with no continuity,
+   The style of wise antiquity.
+   Of kindly, dim antiquity,
+   With hope and then perplexity,
+   With us 'tis quite a novelty
+   Also my wretched liberty
+   The child of sloth and liberty.
+   Thou too farewell, my liberty!
+   Of tender years the modesty
+
 DELIMETER****************************************
   Canto the First
    "My uncle's goodness is extreme,
@@ -9886,7 +10117,7 @@ DELIMETER****************************************
    And harmony was soon restored.
    The workpeople she superintended,
    Mushrooms for winter salted down,
-   Kept the accounts, shaved many a crown,()
+   Kept the accounts, shaved many a crown,(*)
    The bath on Saturdays attended,
    And all without her husband's leave.
    With blood instead of ink she scrawled,
@@ -10867,7 +11098,7 @@ DELIMETER****************************************
    His Hellespont from bank to bank,
    And then a cup of coffee drank,
    Some wretched journal in his hand;
-   Then dressed himself...()
+   Then dressed himself...(*)
    Sound sleep, books, walking, were his bliss,
    The murmuring brook, the woodland shade,
    The uncontaminated kiss
@@ -13273,238 +13504,7 @@ DELIMETER****************************************
    Eugene fell prostrate at her feet-
    She starts, nor doth a word express,
    But gazes on Onéguine's face
-  caps and looks malign;
-   With sad refrain misfortune near.
-   With satisfaction marvellous,
-   With scandal's trivial ornament.
-   With serious air then went away
-   With so much warmth and intellect?
-   With spiritual tenderness;
-   With such a perversity proclaim.
-   With sudden flush her cheeks suffuse,
-   With taffety instead of crape.
-   With tears, confused emotions, bliss,-
-   With tears which secret sufferers love-
-   With tenderness hath recognized
-   With the epistle of my fair;
-   With the "Well-Wisher" in her hand!
-   With this immoderate request
-   With this unpleasant _tête-à-tête_,
-   With thoughts of a far distant land,
-   With tranquil air Onéguine leads
-   With tumult or contentment still
-   With unanimity complete,
-   With us is easily attained.
-   With us 'tis quite a novelty
-   With "vale" finish off a note;
-   With what avidity and zest
-   With which blind Fortune oft betrays
-   With words of foreign origin
-   With worldly honours, it may be,
-   Would agitate a mystic wreath
-   Would at the proper time appear.
-   Would haste in agitation dire
-   Would loiter by the looking-glass,
-   Would lose his slippers or gazette.
-   Would once in powdered wig appear;
-   Would she in silence long remain.
-   Would she the canvas tight enrich
-   Would soothe the doubtings of his soul,
-   Would you to me this Phyllis show,
-   Wrapped in their sheepskins soundly sleep.
-   Wrapt in oblivion complete,
-   Writ in my honour now and then-
-   Yawning betook him to a pen.
-   Yea! although rendered beauteous
-   Yea! and a man of honour, lo!
-   Years have inclined me to stern prose,
-   Years to light rhyme themselves oppose,
-   Ye billows of blue Hadria's sea,
-   Ye dreams of heavenly poesy?
-   Ye feel but little interest,
-   Ye golden days of my young spring?
-   Yelping, a pack of dogs rush out,
-   Ye men of fashion cynical,
-   Ye miracles of courtly grace,
-   Ye mothers also, caution use,
-   Ye need dissimulation base
-   "Ye peaceful valleys all, good-bye!
-   Yes! every one must have his foes,
-   Yes! for our unpretending home,
-   Ye shadows of a life more high,
-   Yes, happy-though she at his side
-   Yet clearer shines than every light
-   Yet curses on his fate bestowing,
-   Yet dares not, dedicate its strain,
-   Yet ghastlier, yet more wonderful,
-   Yet let us part in friendship, O
-   Yet on a frosty winter day
-   Yet satiated with success,
-   Yet sometimes banished hopes will rise
-   Yet sometimes pages two or three
-   Yet sometimes this or that deceit
-   Yet still apparently aspire
-   Yet still her heart, which torments tear,
-   Yet still of anecdotes a treasure
-   Yet still remains the old despair.
-   Yet suffering emotional
-   Yet viewing her from head to foot,
-   Yet was her inmost soul o'erjoyed
-   Yet with a feigned frigidity
-   Ye well-known mountain summits high,
-   Yonder the household lad doth run,
-   Yon silly moon upon the brink
-   You choose."-"But who is she?"-"My wife."
-   You fall in love again. But still-
-   "You have a letter to me sent.
-   You, he a noble mind disclosed,
-   You in the least commiserate
-   You'll spend your winter famously!
-   You never since your nose have shown.
-   You never would have heard the name,
-   Young ladies' faces and their feet.
-   Young ladies, if ye ever strove
-   Young ladies in a vasty curve,
-   Young maidens, fair maidens,
-   You o'er your wine insulted hath-
-   Your conversation cold and hard,
-   Your innocent and charming note
-   "Your second you have left behind!"
-   Your smiling lips, your beaming eyes,
-   Your steed, though rough-shod, cannot keep
-   Youth freshens beneath Passion's showers,
-   You will not all abandon me.
-   You with stern countenance declare
-   Zaretski and Monsieur Guillot
-   Zaretski bit his lip in wrath,
-   Zaretski, once a bully bold,
-   Zaretski paces thirty-two
-   Zaretski rose, nor would explain,
-   Zaretski shouted: "Why, he's killed!"-
-   Zaretski, village mechanician,
-   Zaretski with a knowing grin,
-   Zizi, thou mirror of my mind,
-s for her spouse he loved her dearly,
-   Thou fairy-land! Where formerly
-   From habit or maliciously,
-   Or into bold hands anxiously
-   You'll spend your winter famously!
-   Known unto children perfectly:
-   "Then send your grandson quietly
-   Tattiana suffered secretly;
-   Then he'd malign them secretly
-   To lay two covers secretly.
-   Turned to her and discordantly
-   Grasped a long knife and instantly
-   Conduct Tattiana constantly,
-   The same warm vision constantly;
-   Employ your glasses constantly,
-   She cannot-then impatiently
-   He drops his pistol silently.
-   With clouded brow stands silently?
-   Around her neck, now violently
-   "And he-but of him presently-
-   And of the attic. Honestly,
-   Three balls a year he gave ye duly,
-   Having performed his service truly,
-   The artifice of villany-
-   He brought from mystic Germany
-   The captain of a company.
-   But who in that choice company
-   There, in that knot of company,
-   Wallow, my friends, in company!
-   The man and liked his company,
-   Thou hast resigned thy destiny
-   Then be it so! My destiny
-   Aunts, mothers and their scrutiny,
-   There is no stupid calumny
-   She loved upon the balcony
-   Hath whiled the road's monotony,
-   Not a mere hot, pugnacious boy,
-   Which in the winter were a joy:
-   A labour, torment, yet a joy,
-   Sang childhood's pastimes and its joy,
-   Now for the jealous youth what joy!
-   Wherefore? She found a secret joy
-   Thus Nature doth our souls alloy,
-   The happiest days of life employ?
-   The chaise long ordered please employ,
-   Fearing his pupil to annoy,
-   The feeble moment would espy
-   And following them ye might espy
-   Must now my stanzas occupy.
-   But more the passions occupy
-   Drive on! the city barriers hoary
-   She strains her throat to force a cry-
-   Dark shadows thicken-a dread cry
-   And wakened him with the loud cry:
-   Heedless of your despairing cry?
-   Of clarinet or flute doth cry:
-   Grow harsh and cruel, dead and dry,
-   But my Tattiana's eyes were dry.
-   Beneath a cross and shrubbery.
-   Upon the windows tracery,
-   By night prepared for sorcery,
-   But scarce had sleep's soft witchery
-   And turned aside the drapery;
-   The clue unto some mystery
-   To be a charming mystery:
-   With ardent sighs and flattery
-   Alike by sighs and flattery.
-   _Sed alia tempora_. And bravery
-   There dwells five versts from Krasnogory,
-   Adieu, thou witness of our glory,
-   But, her own room in memory,
-   Here, drunk with his late victory,
-   Relate some ancient history."
-   Haste, haste thy lagging pace, my story!
-   That Nina's marble symmetry,
-   Fragments of northern poetry,
-   And platitudes and pedantry,
-   He feared the criminal might try
-   Will pass; the same to-morrow try-
-   Byron's capricious phantasy
-   Carried away by ecstasy,
-   Ye dreams of heavenly poesy?
-   Must bow in common courtesy;
-   Hope to conceal and jealousy,
-   By the sick lady's gaiety
-   With jealous fear, anxiety.
-   But man of sense and probity.
-   Upon its damp opacity,
-   This, this were true felicity!
-   Before such fond simplicity
-   Charming with grave simplicity.
-   And mental elasticity.
-   Of Russian domesticity;
-   Yet with a feigned frigidity
-   Cursing his own stupidity,
-   (Nonsense and pure absurdity,
-   Discovered much absurdity,
-   By dull insensibility,
-   And then with blind credulity
-   And husbands' tedious amity?
-   But grant with magnanimity
-   And naked uniformity.
-   The blessings of humanity.
-   By his embarrassed dignity-
-   Of old maids the divinity,
-   Passed into dull eternity,
-   Have echoed to eternity.
-   Hears not my importunity!
-   As giddy youth's hilarity-
-   Charming is your sincerity,
-   As Winter in their purity,
-   Dreams with no continuity,
-   The style of wise antiquity.
-   Of kindly, dim antiquity,
-   With hope and then perplexity,
-   With us 'tis quite a novelty
-   Also my wretched liberty
-   The child of sloth and liberty.
-   Thou too farewell, my liberty!
-   Of tender years the modesty
- Without amaze or wrath displayed:
+   Without amaze or wrath displayed:
    His sunken eye and aspect faint,
    She comprehends. The simple maid
    By fond illusions once possest
