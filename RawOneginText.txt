@@ -1035,7 +1035,7 @@
    And harmony was soon restored.
    The workpeople she superintended,
    Mushrooms for winter salted down,
-   Kept the accounts, shaved many a crown,(*)
+   Kept the accounts, shaved many a crown,()
    The bath on Saturdays attended,
    And all without her husband's leave.
    With blood instead of ink she scrawled,
@@ -2016,7 +2016,7 @@
    His Hellespont from bank to bank,
    And then a cup of coffee drank,
    Some wretched journal in his hand;
-   Then dressed himself...(*)
+   Then dressed himself...()
    Sound sleep, books, walking, were his bliss,
    The murmuring brook, the woodland shade,
    The uncontaminated kiss

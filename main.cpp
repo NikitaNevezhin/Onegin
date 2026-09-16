@@ -11,13 +11,20 @@
 #define LINE_LENGTH 256
 #define BUFFER_SIZE 1000
 
-int     ReadFromFile    (const char* filename, char* destination[]);
+int     ReadFromFile        (const char* filename, char* destination[]);
 
-int     WriteIntoFile   (const char* filename, char* source[], int lines);
+int     WriteIntoFile       (const char* filename, char* source[], int lines);
 
-void    PrintStrings    (char* strings[], int n);
+void    ClearFile           (const char* filename);
 
-int     CompareLines    (const void* s1_value, const void* s2_value);
+void    WriteDelimeter      (const char* filename);
+
+void    PrintStrings        (char* strings[], int n);
+
+int     CompareLines        (const void* s1_value, const void* s2_value);
+
+int     CompareLinesByEnd   (const void* s1_value, const void* s2_value);
+
 
 int main(void)
 {   
@@ -28,13 +35,25 @@ int main(void)
     const char readfile[LINE_LENGTH] = "RawOneginText.txt";
     const char writefile[LINE_LENGTH] = "SortedOnegin.txt";
 
+    ClearFile(writefile);
+
     int informative_lines = ReadFromFile(readfile, original_indexes);
 
     for (int i = 0; i < MAX_LINES; i++)
         working_indexes[i] = original_indexes[i];
     // PrintStrings(original_indexes, MAX_LINES);
-    Myqsort(working_indexes, 0, informative_lines - 1, sizeof(working_indexes[0]), CompareLines);
+    
+    qsort(working_indexes, MAX_LINES - 1, sizeof(working_indexes[0]), CompareLines);
     WriteIntoFile(writefile, working_indexes, informative_lines);
+
+    WriteDelimeter(writefile);
+
+    Myqsort(working_indexes, 0, informative_lines - 1, sizeof(working_indexes[0]), CompareLinesByEnd);
+    WriteIntoFile(writefile, working_indexes, informative_lines);
+
+    WriteDelimeter(writefile);
+
+    WriteIntoFile(writefile, original_indexes, informative_lines);
 
     return 0;
 }
@@ -61,7 +80,7 @@ int ReadFromFile(const char* filename, char* destination[])
 
 int WriteIntoFile(const char* filename, char* source[], int lines)
 {
-    FILE *file = fopen(filename, "w");
+    FILE *file = fopen(filename, "a");
 
     if (file)
     {
@@ -113,4 +132,62 @@ int CompareLines(const void* s1_value, const void* s2_value)
     }
 
     return (int)(s1[i]) - (int)(s2[j]);
+}
+
+int CompareLinesByEnd(const void* s1_value, const void* s2_value)
+{
+    char* s1 = *(char**)s1_value;
+    char* s2 = *(char**)s2_value;
+    
+    int length1 = strlen(s1);
+    int length2 = strlen(s2);
+
+    int i = 0, j = 0;
+
+    while((length1 - i - 1) >= 0 && (length2 - j - 1) >= 0)
+    {
+        while (!(isalpha(s1[length1 - i - 1])) && (length1 - i - 1) >= 0)
+            i++;
+
+        while (!(isalpha(s2[length2 - j - 1])) && (length2 - j - 1) >= 0)
+            j++;
+        
+        if ((length1 - i - 1) < 0 || (length2 - j - 1) < 0)
+            break;
+
+        char curr_s1_symb = tolower(s1[length1 - i - 1]);
+        char curr_s2_symb = tolower(s2[length2 - j - 1]);
+
+        if (curr_s1_symb == curr_s2_symb)
+        {   
+            i++;
+            j++;
+            continue;
+        }
+        
+        return (int)(curr_s1_symb) - (int)(curr_s2_symb);
+    }
+
+    if ((length1 - i - 1) < 0 && (length2 - j - 1) >= 0)
+        return -1;
+    else if ((length2 - j - 1) < 0 && (length1 - i - 1) >= 0)
+        return 1;
+    return 0;   
+}
+
+void ClearFile(const char* filename)
+{
+    FILE* file = fopen(filename, "w");
+    assert(file);
+    fclose(file);
+}
+
+void WriteDelimeter(const char* filename)
+{
+    FILE* file = fopen(filename, "a");
+    fputc('\n', file);
+    for (int i = 0; i < 40; i++)
+        fputc('*', file);
+    fputc('\n', file);
+    fclose(file);    
 }
