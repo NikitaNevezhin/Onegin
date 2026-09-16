@@ -29,9 +29,12 @@ int main(void)
     const char writefile[LINE_LENGTH] = "SortedOnegin.txt";
 
     int informative_lines = ReadFromFile(readfile, original_indexes);
+
+    for (int i = 0; i < MAX_LINES; i++)
+        working_indexes[i] = original_indexes[i];
     // PrintStrings(original_indexes, MAX_LINES);
-    Myqsort(original_indexes, 0, informative_lines - 1, sizeof(original_indexes[0]), CompareLines);
-    WriteIntoFile(writefile, original_indexes, informative_lines);
+    Myqsort(working_indexes, 0, informative_lines - 1, sizeof(working_indexes[0]), CompareLines);
+    WriteIntoFile(writefile, working_indexes, informative_lines);
 
     return 0;
 }
