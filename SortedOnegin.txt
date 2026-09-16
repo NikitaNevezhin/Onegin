@@ -2717,6 +2717,7 @@
    Pale as a ghost and dressed since morn
    Pallid and melancholy face,
    Pallid and with dishevelled hair,
+                                      Petrarch
    Paris and Menelaus right.
    Park, garden, palings, yard below
    Passed into dull eternity,
@@ -2724,7 +2725,6 @@
    Past darkened windows and long streets
    Past palaces and nunneries,
    Past women, sentry-boxes, rolls,
-                                      Petrarch
    Pedantic although scholar like,
    Pen, paper bring: the table too
    Perceived that he was still beloved,
@@ -4427,7 +4427,7 @@
    With rapturous longing he awaits,
    With raspberries, cherries.
    With roses, 
-****************************************
+DELIMETER****************************************
     
    Nor Byron, Walter Scott, nor Seneca,
    Fair source of every fine idea,
@@ -8848,7 +8848,7 @@
    The reaping girls approach and ply
    Prevailed at last. She in reply
    A
-****************************************
+DELIMETER****************************************
   Canto the First
    "My uncle's goodness is extreme,
    He hath acquired the world's esteem

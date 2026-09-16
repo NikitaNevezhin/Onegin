@@ -204,6 +204,7 @@ void WriteDelimeter(const char* filename)
 
     FILE* file = fopen(filename, "a");
     fputc('\n', file);
+    fputs("DELIMETER", file);
     for (int i = 0; i < 40; i++)
         fputc('*', file);
     fputc('\n', file);
