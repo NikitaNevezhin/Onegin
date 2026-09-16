@@ -4,8 +4,6 @@
 #include <assert.h>
 #include <string.h>
 
-#define SIZE 10
-
 typedef int (*Comparator)(const void*, const void *);
 
 void  PrintArray            (const double* nums, int length);
