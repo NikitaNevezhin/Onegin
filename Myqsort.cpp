@@ -42,6 +42,7 @@ void SwapValues(void* value1, void* value2, size_t N)
     memcpy(temp, value1, N);
     memcpy(value1, value2, N);
     memcpy(value2, temp, N);
+    // printf("I swapped values\n");
 }
 
 
@@ -60,7 +61,7 @@ int MyDivideByEnd(const void* nums, int left, int right, size_t elem_size, Compa
     {
         curr_elem = GetShift(nums, elem_size, i);
 
-        if (comp(curr_elem, main_elem) != 1)
+        if (comp(curr_elem, main_elem) <= 0)
         {
             SwapValues(curr_elem, GetShift(nums, elem_size, less_nums_index), elem_size);
             less_nums_index++;
@@ -75,7 +76,7 @@ void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator
 {
     assert(nums);
     assert(comp);
-
+    // printf("Executing Myqsort...\n");
     if (left < right)
     {
         int division = MyDivideByEnd(nums, left, right, elem_size, comp);
