@@ -21,6 +21,8 @@ void    WriteDelimeter      (const char* filename);
 
 void    PrintStrings        (char* strings[], int n);
 
+char*   Mystrdup            (const char* s);
+
 int     CompareLines        (const void* s1_value, const void* s2_value);
 
 int     CompareLinesByEnd   (const void* s1_value, const void* s2_value);
@@ -73,7 +75,7 @@ int ReadFromFile(const char* filename, char* destination[])
     {   
         while (fgets(buffer, LINE_LENGTH, file))
         {
-            destination[nLines] = strdup(buffer);
+            destination[nLines] = Mystrdup(buffer);
             nLines++;    
         }
     }
@@ -222,4 +224,18 @@ void WriteDelimeter(const char* filename)
         fputc('*', file);
     fputc('\n', file);
     fclose(file);    
+}
+
+char* Mystrdup(const char* s)
+{
+    assert(s);
+
+    int size = strlen(s) + 1;
+
+    char* copy = (char*)malloc(size);
+
+    if (copy)
+        return strcpy(copy, s);
+    
+    return NULL;
 }
