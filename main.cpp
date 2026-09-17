@@ -46,11 +46,11 @@ int main(void)
     qsort(working_indexes, MAX_LINES - 1, sizeof(working_indexes[0]), CompareLines);
     WriteIntoFile(writefile, working_indexes, informative_lines);
 
-    WriteDelimeter(writefile);
+    WriteDelimeter(writefile); // different sortings of Onegin are divided by word "DELIMETER"
 
     Myqsort(working_indexes, 0, informative_lines - 1, sizeof(working_indexes[0]), CompareLinesByEnd);
     WriteIntoFile(writefile, working_indexes, informative_lines);
-    PrintStrings(working_indexes, informative_lines);
+    // PrintStrings(working_indexes, informative_lines);
 
     WriteDelimeter(writefile);
 
@@ -104,7 +104,18 @@ void PrintStrings(char* strings[], int n)
     for (int i = 0; i < n; i++)
     {   
         if (strings[i])
-            printf("%s", strings[i]);
+        {   
+            int length = strlen(strings[i]);
+            printf("[address: %p] ", strings[i]);
+            putchar('<');
+            int j = 0;
+            for ( ; j < length - 1; j++)
+                putchar(strings[i][j]);
+            if (strings[i][j] != '\n')
+                putchar(strings[i][j]);
+            putchar('>');
+            printf("%*s %d\n", 50 - length, "Length:", length);
+        }
     }
 }
 
