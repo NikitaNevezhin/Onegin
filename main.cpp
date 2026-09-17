@@ -198,10 +198,10 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
     }
 
     if ((length1 - i - 1) < 0 && (length2 - j - 1) >= 0)
-        return -1;
+        return LESS;
     else if ((length2 - j - 1) < 0 && (length1 - i - 1) >= 0)
-        return 1;
-    return 0;   
+        return MORE;
+    return EQUAL;   
 }
 
 void ClearFile(const char* filename)
