@@ -4,6 +4,13 @@
 #include <assert.h>
 #include <string.h>
 
+enum COMPARE_FLAGS
+{
+    LESS = -1,
+    EQUAL = 0,
+    MORE = 1
+};
+
 typedef int (*Comparator)(const void*, const void *);
 
 void  PrintArray            (const double* nums, int length);
@@ -59,7 +66,7 @@ int MyDivideByEnd(const void* nums, int left, int right, size_t elem_size, Compa
     {
         curr_elem = GetShift(nums, elem_size, i);
 
-        if (comp(curr_elem, main_elem) <= 0)
+        if (comp(curr_elem, main_elem) <= EQUAL)
         {
             SwapValues(curr_elem, GetShift(nums, elem_size, less_nums_index), elem_size);
             less_nums_index++;
@@ -100,10 +107,10 @@ int CompareDouble(const void* value_a, const void* value_b)
     double b = *(double*)value_b;
 
     if (a > b)
-        return 1;
+        return MORE;
     else if (a < b)
-        return -1;
-    return 0;
+        return LESS;
+    return EQUAL;
 }
 
 int CompareInts(const void* value_a, const void* value_b)
@@ -115,8 +122,8 @@ int CompareInts(const void* value_a, const void* value_b)
     int b = *(int*)value_b;
 
     if (a > b)
-        return 1;
+        return MORE;
     else if (a < b)
-        return -1;
-    return 0;
+        return LESS;
+    return EQUAL;
 }
