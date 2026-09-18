@@ -147,14 +147,13 @@ int CompareLines(const void* s1_value, const void* s2_value)
         char curr_s1_symb = tolower(s1[i]);
         char curr_s2_symb = tolower(s2[j]);
 
-        if (curr_s1_symb == curr_s2_symb)
+        if (curr_s1_symb != curr_s2_symb)
         {   
-            i++;
-            j++;
-            continue;
+            return (int)(curr_s1_symb) - (int)(curr_s2_symb);
         }
         
-        return (int)(curr_s1_symb) - (int)(curr_s2_symb);
+        i++;
+        j++;
     }
 
     return (int)(s1[i]) - (int)(s2[j]);
@@ -187,14 +186,13 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
         char curr_s1_symb = tolower(s1[length1 - i - 1]);
         char curr_s2_symb = tolower(s2[length2 - j - 1]);
 
-        if (curr_s1_symb == curr_s2_symb)
+        if (curr_s1_symb != curr_s2_symb)
         {   
-            i++;
-            j++;
-            continue;
+            return (int)(curr_s1_symb) - (int)(curr_s2_symb);
         }
-        
-        return (int)(curr_s1_symb) - (int)(curr_s2_symb);
+
+        i++;
+        j++;  
     }
 
     if ((length1 - i - 1) < 0 && (length2 - j - 1) >= 0)
