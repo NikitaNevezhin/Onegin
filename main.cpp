@@ -96,6 +96,7 @@ int WriteIntoFile(const char* filename, char* source[], int lines)
         for (int i = 0; i < lines; i++)
             fputs(source[i], file);
     }
+
     fclose(file);
 }
 
@@ -108,13 +109,17 @@ void PrintStrings(char* strings[], int n)
         if (strings[i])
         {   
             int length = strlen(strings[i]);
+            
             printf("[address: %p] ", strings[i]);
             putchar('<');
+
             int j = 0;
             for ( ; j < length - 1; j++)
                 putchar(strings[i][j]);
+            
             if (strings[i][j] != '\n')
                 putchar(strings[i][j]);
+            
             putchar('>');
             printf("%*s %d\n", 50 - length, "Length:", length);
         }
@@ -197,8 +202,10 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
 
     if ((length1 - i - 1) < 0 && (length2 - j - 1) >= 0)
         return LESS;
+
     else if ((length2 - j - 1) < 0 && (length1 - i - 1) >= 0)
         return MORE;
+
     return EQUAL;   
 }
 
@@ -208,6 +215,7 @@ void ClearFile(const char* filename)
 
     FILE* file = fopen(filename, "w");
     assert(file);
+
     fclose(file);
 }
 
@@ -218,9 +226,11 @@ void WriteDelimeter(const char* filename)
     FILE* file = fopen(filename, "a");
     fputc('\n', file);
     fputs("DELIMETER", file);
+
     for (int i = 0; i < 40; i++)
         fputc('*', file);
     fputc('\n', file);
+
     fclose(file);    
 }
 
