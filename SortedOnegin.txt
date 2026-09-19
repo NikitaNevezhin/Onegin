@@ -1324,8 +1324,8 @@ Canto the Eighth
 Canto The Fifth
 Canto the First
 Canto the First of this romance.
-CANTO THE FOURTH
 Canto The Fourth
+CANTO THE FOURTH
 CANTO THE SECOND
 Canto The Second
 Canto The Seventh
@@ -1459,13 +1459,13 @@ Dies suddenly: of heirs alone
 Diminishes as years decline.
 Discourse of Bentham or of Say,
 Discovered much absurdity,
-                           Dmitrieff
 Disperse yourselves, darlings,
 Displayed a noble rectitude-
 Disport yourselves, maidens,
 Distinctly not its mechanism.
 Distracted by her grief appears
 Divinity without access
+                           Dmitrieff
 Do agitate his late repose.
 Do all things which to mirth incline.
 Doctors and women, sobs and groans.
@@ -2722,7 +2722,6 @@ Passed into dull eternity,
 Passes the torrent But alack!
 Past darkened windows and long streets
 Past palaces and nunneries,
-                                 Petrarch
 Past women, sentry-boxes, rolls,
 Pedantic although scholar like,
 Pelagie Nikolavna has
@@ -2743,6 +2742,7 @@ Perused, Eugene in postchaise went
 Perusing Gibbon and Rousseau,
 Pervaded with much common sense.
 Perverse, unfavourable views?
+                                 Petrarch
 Petrovski Palace; come, astir!
 Petrovski Palace! Gloomily
 Petòushkoff met the selfsame doom.
@@ -6655,8 +6655,8 @@ Full many a foolish prank brought forth;
 By the fine silver of the north.
 For him were but of little worth,
 Ombre, and whist all others worth:
-Canto The Fourth
 CANTO THE FOURTH
+Canto The Fourth
 End of Canto The Fourth
 Restrained the impulses of youth;
 To the impressions of our youth,

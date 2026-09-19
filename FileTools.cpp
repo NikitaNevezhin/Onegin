@@ -9,6 +9,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <sys\stat.h>
+#include <errno.h>
 
 #include "OneginHelpers.cpp"
 
@@ -24,11 +25,19 @@ void    WriteDelimeter      (const char* filename);
 
 
 
-int GetFileSize(const char* filename) //returns byte size (including '\r' and ' \n')
-{
+int GetFileSize(const char* filename)  //returns byte size (including '\r' and ' \n')
+{   
+    assert(filename);
+
     struct stat FileInfo = {};
 
     FILE* file = fopen(filename, "rb");
+
+    if (file == NULL)
+    {
+        perror("ERROR: GetFileSize -> fopen()");
+        abort();
+    }
 
     stat(filename, &FileInfo);
 
@@ -42,7 +51,12 @@ void ClearFile(const char* filename)
     assert(filename);
 
     FILE* file = fopen(filename, "w");
-    assert(file);
+    
+    if (file == NULL)
+    {
+        perror("ERROR: GetFileSize -> fopen()");
+        abort();
+    }
 
     fclose(file);
 }
@@ -56,10 +70,13 @@ int ReadFromFile(const char* filename, char destination[], int size)
 
     FILE* file = fopen(filename, "rb");
 
-    if (file)
-    { 
-        read_bytes = fread(destination, sizeof(char), size, file);
+    if (file == NULL)
+    {
+        perror("ERROR: GetFileSize -> fopen()");
+        abort();
     }
+
+    read_bytes = fread(destination, sizeof(char), size, file);
     
     destination[size] = '\0';
 
@@ -75,11 +92,14 @@ int WriteIntoFile(const char* filename, char* source[], int lines)
 
     FILE *file = fopen(filename, "ab");
 
-    if (file)
+    if (file == NULL)
     {
-        for (int i = 0; i < lines; i++)
-            fwrite(source[i], sizeof(char), LFstrlen(source[i]), file);
+        perror("ERROR: GetFileSize -> fopen()");
+        abort();
     }
+
+    for (int i = 0; i < lines; i++)
+        fwrite(source[i], sizeof(char), LFstrlen(source[i]), file);
 
     fclose(file);
 
@@ -91,6 +111,13 @@ void WriteDelimeter(const char* filename)
     assert(filename);
 
     FILE* file = fopen(filename, "a");
+
+    if (file == NULL)
+    {
+        perror("ERROR: GetFileSize -> fopen()");
+        abort();
+    }
+
     fputc('\n', file);
     fputs("DELIMETER", file);
 

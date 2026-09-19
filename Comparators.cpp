@@ -20,12 +20,6 @@ enum COMPARE_FLAGS
     MORE = 1
 };
 
-int   CompareDouble         (const void* a, const void* b);
-
-int   CompareInts           (const void* value_a, const void* value_b);
-
-void  SwapValues            (void* value1, void* value2, size_t N);
-
 int   CompareLines          (const void* s1_value, const void* s2_value);
 
 int   CompareLinesByEnd     (const void* s1_value, const void* s2_value);
@@ -33,39 +27,9 @@ int   CompareLinesByEnd     (const void* s1_value, const void* s2_value);
 int   CompareLinesAddress   (const void* s1_value, const void* s2_value);
 
 
-int CompareDouble(const void* value_a, const void* value_b)
-{   
-    assert(value_a);
-    assert(value_b);
-
-    double a = *(const double*)value_a;
-    double b = *(const double*)value_b;
-
-    if (a > b)
-        return MORE;
-    else if (a < b)
-        return LESS;
-    return EQUAL;
-}
-
-int CompareInts(const void* value_a, const void* value_b)
-{
-    assert(value_a);
-    assert(value_b);
-
-    int a = *(const int*)value_a;
-    int b = *(const int*)value_b;
-
-    if (a > b)
-        return MORE;
-    else if (a < b)
-        return LESS;
-    return EQUAL;
-}
-
 // ONEGIN COMPARATORS
 
-#ifdef OneginHelpers_cpp
+
 
 int CompareLines(const void* s1_value, const void* s2_value)
 {   
@@ -81,8 +45,8 @@ int CompareLines(const void* s1_value, const void* s2_value)
 
     while(s1[i] != '\n' && s2[j] != '\n')
     {
-        while (!(isalpha(s1[i])) && s1[i] != '\n')
-            i++;
+        SkipNotLetters(s1, &i, FORWARDS);
+        SkipNotLetters(s2, &j, FORWARDS);
 
         while (!(isalpha(s2[j])) && s2[j] != '\n')
             j++;
@@ -120,11 +84,8 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
 
     while((length1 - i - 1) >= 0 && (length2 - j - 1) >= 0)
     {   
-        while (!(isalpha(s1[length1 - i - 1])) && (length1 - i - 1) >= 0)
-            i++;
-
-        while (!(isalpha(s2[length2 - j - 1])) && (length2 - j - 1) >= 0)
-            j++;
+        SkipNotLetters(s1, &i, BACKWARDS);
+        SkipNotLetters(s2, &j, BACKWARDS);
         
         if ((length1 - i - 1) < 0 || (length2 - j - 1) < 0)
             break;
@@ -160,8 +121,5 @@ int CompareLinesAddress(const void* s1_value, const void* s2_value)
 
     return (int)s1 - (int)s2;
 }
-
-#endif
-
 
 #endif

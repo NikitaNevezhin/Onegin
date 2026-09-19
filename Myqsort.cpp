@@ -6,6 +6,8 @@
 
 #include "Comparators.cpp"
 
+void  SwapValues            (void* value1, void* value2, size_t N);
+
 void* GetShift              (void* first, size_t elem_size, int shift);
 
 int   MyDivideByEnd         (void* nums, int left, int right, size_t elem_size, Comparator comp);
