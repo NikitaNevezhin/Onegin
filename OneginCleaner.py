@@ -37,6 +37,7 @@ with open("OneginText.txt", "r", encoding="utf8") as read_file, \
             line = line.replace("“", '"')
             line = line.replace("”", '"')
             line = line.replace("—", "-")
+            line = line.replace("é", "e")
             write_file.write(re.sub(note_pattern, "", line))
 
 
