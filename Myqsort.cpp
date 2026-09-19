@@ -4,22 +4,9 @@
 #include <assert.h>
 #include <string.h>
 
-enum COMPARE_FLAGS
-{
-    LESS = -1,
-    EQUAL = 0,
-    MORE = 1
-};
-
-typedef int (*Comparator)(const void*, const void *);
-
-void  PrintArray            (const double* nums, int length);
+#include "Comparators.cpp"
 
 int   CompareDouble         (const void* a, const void* b);
-
-int   CompareInts           (const void* value_a, const void* value_b);
-
-void  SwapValues            (void* value1, void* value2, size_t N);
 
 void* GetShift              (const void* first, size_t elem_size, int shift);
 
@@ -27,15 +14,6 @@ int   MyDivideByEnd         (const void* nums, int left, int right, size_t elem_
 
 void  Myqsort               (const void* arr, int left, int right, size_t elem_size, Comparator comp);
 
-
-void PrintArray(const double* nums, int length)
-{
-    assert(nums);
-
-    for (int i = 0; i < length; i++)
-        printf("%lf ", nums[i]);
-    printf("\n");
-}
 
 void SwapValues(void* value1, void* value2, size_t N)
 {
@@ -77,7 +55,7 @@ int MyDivideByEnd(const void* nums, int left, int right, size_t elem_size, Compa
 }
 
 
-void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator comp) //TODO: #typedef DONE
+void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator comp) 
 {
     assert(nums);
     assert(comp);
@@ -87,7 +65,7 @@ void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator
         int division = MyDivideByEnd(nums, left, right, elem_size, comp);
 
         Myqsort(nums, left, division - 1, elem_size, comp);
-        Myqsort(nums, division + 1, right, elem_size, comp); //FIXME:
+        Myqsort(nums, division + 1, right, elem_size, comp); 
     }
 }
 
@@ -95,35 +73,4 @@ void* GetShift(const void* first, size_t elem_size, int shift)
 {   
     assert(first);
     return (void*)((char*)first + elem_size * shift);
-}
-
-
-int CompareDouble(const void* value_a, const void* value_b)
-{   
-    assert(value_a);
-    assert(value_b);
-
-    double a = *(double*)value_a;
-    double b = *(double*)value_b;
-
-    if (a > b)
-        return MORE;
-    else if (a < b)
-        return LESS;
-    return EQUAL;
-}
-
-int CompareInts(const void* value_a, const void* value_b)
-{
-    assert(value_a);
-    assert(value_b);
-
-    int a = *(int*)value_a;
-    int b = *(int*)value_b;
-
-    if (a > b)
-        return MORE;
-    else if (a < b)
-        return LESS;
-    return EQUAL;
 }
