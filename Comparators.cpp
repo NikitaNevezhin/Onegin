@@ -20,6 +20,8 @@ enum COMPARE_FLAGS
     MORE = 1
 };
 
+int   CompareDouble         (const void* a, const void* b);
+
 int   CompareInts           (const void* value_a, const void* value_b);
 
 void  SwapValues            (void* value1, void* value2, size_t N);
@@ -28,14 +30,16 @@ int   CompareLines          (const void* s1_value, const void* s2_value);
 
 int   CompareLinesByEnd     (const void* s1_value, const void* s2_value);
 
+int   CompareLinesAddress   (const void* s1_value, const void* s2_value);
+
 
 int CompareDouble(const void* value_a, const void* value_b)
 {   
     assert(value_a);
     assert(value_b);
 
-    double a = *(double*)value_a;
-    double b = *(double*)value_b;
+    double a = *(const double*)value_a;
+    double b = *(const double*)value_b;
 
     if (a > b)
         return MORE;
@@ -49,8 +53,8 @@ int CompareInts(const void* value_a, const void* value_b)
     assert(value_a);
     assert(value_b);
 
-    int a = *(int*)value_a;
-    int b = *(int*)value_b;
+    int a = *(const int*)value_a;
+    int b = *(const int*)value_b;
 
     if (a > b)
         return MORE;
@@ -68,8 +72,8 @@ int CompareLines(const void* s1_value, const void* s2_value)
     assert(s1_value);
     assert(s2_value);
 
-    char* s1 = *(char**)s1_value;
-    char* s2 = *(char**)s2_value;
+    const char* s1 = *(const char* const*)s1_value;
+    const char* s2 = *(const char* const*)s2_value;
     // printf("s1 = %s", s1);
     // printf("s2 = %s", s2);
 
@@ -86,8 +90,8 @@ int CompareLines(const void* s1_value, const void* s2_value)
         if (s1[i] == '\n' || s2[i] == '\n')
             break;
 
-        char curr_s1_symb = tolower(s1[i]);
-        char curr_s2_symb = tolower(s2[j]);
+        int curr_s1_symb = (char)tolower(s1[i]);
+        int curr_s2_symb = (char)tolower(s2[j]);
 
         if (curr_s1_symb != curr_s2_symb)
         {   
@@ -106,8 +110,8 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
     assert(s1_value);
     assert(s2_value);
 
-    char* s1 = *(char**)s1_value;
-    char* s2 = *(char**)s2_value;
+    const char* s1 = *(const char* const*)s1_value;
+    const char* s2 = *(const char* const*)s2_value;
     
     int length1 = LFstrlen(s1);
     int length2 = LFstrlen(s2);
@@ -125,8 +129,8 @@ int CompareLinesByEnd(const void* s1_value, const void* s2_value)
         if ((length1 - i - 1) < 0 || (length2 - j - 1) < 0)
             break;
 
-        char curr_s1_symb = tolower(s1[length1 - i - 1]);
-        char curr_s2_symb = tolower(s2[length2 - j - 1]);
+        int curr_s1_symb = tolower(s1[length1 - i - 1]);
+        int curr_s2_symb = tolower(s2[length2 - j - 1]);
 
         if (curr_s1_symb != curr_s2_symb)
         {   
@@ -151,8 +155,8 @@ int CompareLinesAddress(const void* s1_value, const void* s2_value)
     assert(s1_value);
     assert(s2_value);
 
-    char* s1 = *(char**)s1_value;
-    char* s2 = *(char**)s2_value;
+    const char* s1 = *(const char* const*)s1_value;
+    const char* s2 = *(const char* const*)s2_value;
 
     return (int)s1 - (int)s2;
 }

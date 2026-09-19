@@ -634,7 +634,7 @@ Go, on the Neva's bank appear,
 My very latest composition!
 Enjoy the meed which Fame bestows-
 Misunderstanding, words and blows.
-   CANTO THE SECOND
+CANTO THE SECOND
 The Poet
 "O Rus!"-Horace
 Canto The Second
@@ -1629,7 +1629,7 @@ Brambles she snaps and lilacs crushes,
 The flowerbeds skirts, the brook doth meet,
 Till out of breath upon a seat
 She sank.-
-   "He's here! Eugene is here!
+"He's here! Eugene is here!
 Merciful God, what will he deem?"
 Yet still her heart, which torments tear,
 Guards fondly hope's uncertain dream.
@@ -1688,7 +1688,7 @@ But this adventure's consequence
 To-day, my friends, at any rate,
 Must take a walk and rest a bit-
 End of Canto the Third
-   CANTO THE FOURTH
+CANTO THE FOURTH
 Canto The Fourth
 The less we love a lady fair
 The easier 'tis to gain her grace,
@@ -2175,7 +2175,7 @@ And yet oblivion forbade.
 End of Canto The Fourth
 The Fête
 ‘Oh, do not dream these fearful dreams,
-   O my Svetlana.'-Joukóvski
+O my Svetlana.'-Joukóvski
 Canto The Fifth
 That year the autumn season late
 Kept lingering on as loath to go,
@@ -2726,7 +2726,7 @@ A pair of bullets-nought beside-
 His fate shall presently decide.
 The Duel
 Nasce una gente a cui 'l morir non duole.'
-                                    Petrarch
+                                 Petrarch
 Canto The Sixth
 Oneguine, bored to death again,
 By Olga stood, dejected quite
@@ -3248,13 +3248,13 @@ Wallow, my friends, in company!
 Moscow
 Moscow, Russia's darling daughter,
 Where thine equal shall we find?
-                              Dmitrieff
+                           Dmitrieff
 Who can help loving mother Moscow?
-                     Baratynski (_Feasts_)
+                  Baratynski (_Feasts_)
 A journey to Moscow! To see the world!
 Where better?
-               Where man is not.
-            Griboyedoff (_Woe from Wit_)
+            Where man is not.
+         Griboyedoff (_Woe from Wit_)
 Canto The Seventh
 The snows from off the hills around
 Descended swift in turbid streams
@@ -4535,5 +4535,4 @@ Of the cup brimming o'er with wine-
 Who the romance do not complete,
 Have my Oneguine-suddenly.
 End of Canto The Eighth
-   The End
-   
+The End

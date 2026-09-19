@@ -82,6 +82,8 @@ int WriteIntoFile(const char* filename, char* source[], int lines)
     }
 
     fclose(file);
+
+    return 1;
 }
 
 void WriteDelimeter(const char* filename)

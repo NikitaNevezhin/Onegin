@@ -967,7 +967,7 @@ Back to his regiment must roam.
 Baggage is heaped up in a mound,
 Balconies, lion's heads on doors,
 Baptized Prascovia Pauline,
-                     Baratynski (_Feasts_)
+                  Baratynski (_Feasts_)
 Bard of the "Feasts," and mournful breast,
 Bard of the Finnish maiden young.
 Barely to draw her breath she seems,
@@ -1324,9 +1324,9 @@ Canto the Eighth
 Canto The Fifth
 Canto the First
 Canto the First of this romance.
-   CANTO THE FOURTH
+CANTO THE FOURTH
 Canto The Fourth
-   CANTO THE SECOND
+CANTO THE SECOND
 Canto The Second
 Canto The Seventh
 Canto The Sixth
@@ -1459,13 +1459,13 @@ Dies suddenly: of heirs alone
 Diminishes as years decline.
 Discourse of Bentham or of Say,
 Discovered much absurdity,
+                           Dmitrieff
 Disperse yourselves, darlings,
 Displayed a noble rectitude-
 Disport yourselves, maidens,
 Distinctly not its mechanism.
 Distracted by her grief appears
 Divinity without access
-                              Dmitrieff
 Do agitate his late repose.
 Do all things which to mirth incline.
 Doctors and women, sobs and groans.
@@ -1748,7 +1748,7 @@ Grateful to Heaven for their lot.
 Gravely repeating to another
 Great sacrifices for his sake!
 Grew like a lily pure and white,
-            Griboyedoff (_Woe from Wit_)
+         Griboyedoff (_Woe from Wit_)
 Grow harsh and cruel, dead and dry,
 Grown clammy, stick fast in the snow;
 Grows pale and sinks, but nothing says;
@@ -1978,7 +1978,7 @@ He sang of separation grim,
 He's a straightforward little chap."
 He sat, and then the livelong day,
 He seemed for matrimony born.
-   "He's here! Eugene is here!
+"He's here! Eugene is here!
 He shunned those parties boisterous;
 He smiles, in laughter all combine;
 He somewhat blushing would omit:
@@ -2561,7 +2561,7 @@ Olga with trepidation dire.
 Ombre, and whist all others worth:
 O Men, how very like ye are
 Omens inspired her soul with fear,
-   O my Svetlana.'-Joukóvski
+O my Svetlana.'-Joukóvski
 Once more to idleness consigned,
 Once more, when she appeared in sight,
 On chairs in the saloon reposed,
@@ -2722,12 +2722,12 @@ Passed into dull eternity,
 Passes the torrent But alack!
 Past darkened windows and long streets
 Past palaces and nunneries,
+                                 Petrarch
 Past women, sentry-boxes, rolls,
 Pedantic although scholar like,
 Pelagie Nikolavna has
 Pen, paper bring: the table too
 Perceived that he was still beloved,
-                                    Petrarch
 Perchance he will to all the three.
 Perchance one more affectionate.
 Perchance some heart 'twill agitate,
@@ -3282,7 +3282,7 @@ The early days of life we sought.
 The early tinkling of the bells
 The easier 'tis to gain her grace,
 Thee but a little space bewept,
-   The End
+The End
 Thee only, pledge of all things bright,
 The epistle from the bard presents.
 The epitaph on marble shows:
@@ -4197,7 +4197,7 @@ Where is he who doth not deceive?
 Where is Oneguine? Half asleep,
 Where is the outlaw, banned by men,
 Where long time he in solitude
-               Where man is not.
+            Where man is not.
 Where many another hand had signed
 Where melancholy rocks arise
 Where my days in the wilderness
@@ -4527,7 +4527,7 @@ Your steed, though rough-shod, cannot keep
 Youth freshens beneath Passion's showers,
 You will not all abandon me.
 You with stern countenance declare
-   Zaretski and Monsieur Guillot
+Zaretski and Monsieur Guillot
 Zaretski bit his lip in wrath,
 Zaretski, once a bully bold,
 Zaretski paces thirty-two
@@ -4538,7 +4538,7 @@ Zaretski with a knowing grin,
 Zizi, thou mirror of my mind,
 
 DELIMETER****************************************
-   Nor Byron, Walter Scott, nor Seneca,
+Nor Byron, Walter Scott, nor Seneca,
 Fair source of every fine idea,
 Upon the highway of the sea
 Ye billows of blue Hadria's sea,
@@ -5139,7 +5139,7 @@ Her tears flow plentifully and
 To cock the pistol; barrel bend
 A passionate desire to bend
 The thunderbolt on you descend!
-   The End
+The End
 Wearied of leisure in the end,
 And had with waddling in the end
 Charms more enduring in the end.
@@ -5191,7 +5191,7 @@ And the recesses of my mind
 So uncongenial to my mind,
 Brought by a pedlar vagabond
 Canto The Second
-   CANTO THE SECOND
+CANTO THE SECOND
 End of Canto the Second.
 Of whirligigs were very fond,
 And stoves of various shapes abound.
@@ -5929,7 +5929,7 @@ Which in the elevated sphere
 The moon in the blue atmosphere.
 Enjoyeth peaceful slumber here_.
 "Abandon hope for ever here!"
-   "He's here! Eugene is here!
+"He's here! Eugene is here!
 And Eugene soon discovered there
 Or suffering pride? Why is he there?
 With all their progeny were there,
@@ -6474,7 +6474,7 @@ Who in the agony of grief
 To whom are our misfortunes grief
 With deeper woe than others' grief.
 Our union would produce but grief.
-                              Dmitrieff
+                           Dmitrieff
 Who arrived lately from Tamboff,
 Gvozdine, Bouyànoff, Petòushkoff
 The family of Kharlikoff,
@@ -6585,7 +6585,7 @@ Many an ancient legend which
 Would she the canvas tight enrich
 Who to surrender did not blench
 Drunk as a fly; and thus the French
-                                    Petrarch
+                                 Petrarch
 Can scarce in sweetness be a match.
 But home his body to despatch
 With gay design and silken stitch.
@@ -6656,7 +6656,7 @@ By the fine silver of the north.
 For him were but of little worth,
 Ombre, and whist all others worth:
 Canto The Fourth
-   CANTO THE FOURTH
+CANTO THE FOURTH
 End of Canto The Fourth
 Restrained the impulses of youth;
 To the impressions of our youth,
@@ -6664,7 +6664,7 @@ My frivolous and jolly youth.
 Found the ideal of my youth,
 But, knowing not the actual truth,
 Canto The Sixth
-   O my Svetlana.'-Joukóvski
+O my Svetlana.'-Joukóvski
 Mutual repulsion and ennui,
 His wadded coat and cap with peak
 To listen to the words you speak,
@@ -8041,7 +8041,7 @@ The flimsy wares of Western marts,
 Meantime a Cyclops of those parts
 We Russians, friends from distant parts
 The Paris of those country parts
-                     Baratynski (_Feasts_)
+                  Baratynski (_Feasts_)
 Deliberate approach of guests
 Though for his Helen Menelaus
 And like Napoleons each of us
@@ -8398,7 +8398,7 @@ A dove which on a lyre doth sit;
 The master always used to sit.
 Who in the orchards gathered fruit,
 So mouths they stopt with song, not fruit-
-            Griboyedoff (_Woe from Wit_)
+         Griboyedoff (_Woe from Wit_)
 Renowned for his acumen, wit,
 The beldam saith: "The hearth, by it
 The snow upon the streets doth melt-
@@ -8494,7 +8494,7 @@ Alas! how wretched now my lot!"
 To Russ indigenous are not;
 One moment's slumber suffer not.
 Keep your accounts! You'd rather not?
-               Where man is not.
+            Where man is not.
 Rousseau and Richardson to boot.
 Examine her from head to foot.
 Yet viewing her from head to foot,
@@ -9714,7 +9714,7 @@ Go, on the Neva's bank appear,
 My very latest composition!
 Enjoy the meed which Fame bestows-
 Misunderstanding, words and blows.
-   CANTO THE SECOND
+CANTO THE SECOND
 The Poet
 "O Rus!"-Horace
 Canto The Second
@@ -10709,7 +10709,7 @@ Brambles she snaps and lilacs crushes,
 The flowerbeds skirts, the brook doth meet,
 Till out of breath upon a seat
 She sank.-
-   "He's here! Eugene is here!
+"He's here! Eugene is here!
 Merciful God, what will he deem?"
 Yet still her heart, which torments tear,
 Guards fondly hope's uncertain dream.
@@ -10768,7 +10768,7 @@ But this adventure's consequence
 To-day, my friends, at any rate,
 Must take a walk and rest a bit-
 End of Canto the Third
-   CANTO THE FOURTH
+CANTO THE FOURTH
 Canto The Fourth
 The less we love a lady fair
 The easier 'tis to gain her grace,
@@ -11255,7 +11255,7 @@ And yet oblivion forbade.
 End of Canto The Fourth
 The Fête
 ‘Oh, do not dream these fearful dreams,
-   O my Svetlana.'-Joukóvski
+O my Svetlana.'-Joukóvski
 Canto The Fifth
 That year the autumn season late
 Kept lingering on as loath to go,
@@ -11806,7 +11806,7 @@ A pair of bullets-nought beside-
 His fate shall presently decide.
 The Duel
 Nasce una gente a cui 'l morir non duole.'
-                                    Petrarch
+                                 Petrarch
 Canto The Sixth
 Oneguine, bored to death again,
 By Olga stood, dejected quite
@@ -12328,13 +12328,13 @@ Wallow, my friends, in company!
 Moscow
 Moscow, Russia's darling daughter,
 Where thine equal shall we find?
-                              Dmitrieff
+                           Dmitrieff
 Who can help loving mother Moscow?
-                     Baratynski (_Feasts_)
+                  Baratynski (_Feasts_)
 A journey to Moscow! To see the world!
 Where better?
-               Where man is not.
-            Griboyedoff (_Woe from Wit_)
+            Where man is not.
+         Griboyedoff (_Woe from Wit_)
 Canto The Seventh
 The snows from off the hills around
 Descended swift in turbid streams
@@ -13615,5 +13615,4 @@ Of the cup brimming o'er with wine-
 Who the romance do not complete,
 Have my Oneguine-suddenly.
 End of Canto The Eighth
-   The End
-   
+The End

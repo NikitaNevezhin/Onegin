@@ -6,13 +6,11 @@
 
 #include "Comparators.cpp"
 
-int   CompareDouble         (const void* a, const void* b);
+void* GetShift              (void* first, size_t elem_size, int shift);
 
-void* GetShift              (const void* first, size_t elem_size, int shift);
+int   MyDivideByEnd         (void* nums, int left, int right, size_t elem_size, Comparator comp);
 
-int   MyDivideByEnd         (const void* nums, int left, int right, size_t elem_size, Comparator comp);
-
-void  Myqsort               (const void* arr, int left, int right, size_t elem_size, Comparator comp);
+void  Myqsort               (void* arr, int left, int right, size_t elem_size, Comparator comp);
 
 
 void SwapValues(void* value1, void* value2, size_t N)
@@ -20,7 +18,7 @@ void SwapValues(void* value1, void* value2, size_t N)
     assert(value1);
     assert(value2);
 
-    char temp[N]; 
+    char* temp = (char*)calloc(N, sizeof(char));
 
     memcpy(temp, value1, N);
     memcpy(value1, value2, N);
@@ -29,7 +27,7 @@ void SwapValues(void* value1, void* value2, size_t N)
 }
 
 
-int MyDivideByEnd(const void* nums, int left, int right, size_t elem_size, Comparator comp)
+int MyDivideByEnd(void* nums, int left, int right, size_t elem_size, Comparator comp)
 {
     assert(nums);
     assert(comp);
@@ -55,7 +53,7 @@ int MyDivideByEnd(const void* nums, int left, int right, size_t elem_size, Compa
 }
 
 
-void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator comp) 
+void Myqsort(void* nums, int left, int right, size_t elem_size, Comparator comp) 
 {
     assert(nums);
     assert(comp);
@@ -69,8 +67,9 @@ void Myqsort(const void* nums, int left, int right, size_t elem_size, Comparator
     }
 }
 
-void* GetShift(const void* first, size_t elem_size, int shift)
+void* GetShift(void* first, size_t elem_size, int shift)
 {   
     assert(first);
     return (void*)((char*)first + elem_size * shift);
 }
+
