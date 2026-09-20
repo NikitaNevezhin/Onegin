@@ -13,6 +13,15 @@
 
 #include "OneginHelpers.cpp"
 
+struct FileInfo
+{
+    int lines;
+    const char* filename;
+    int size;
+    char* buffer;
+    char** indexes;
+};
+
 int     GetFileSize         (const char* filename);
 
 void    ClearFile           (const char* filename);
@@ -22,6 +31,10 @@ int     ReadFromFile        (const char* filename, char destination[], int size)
 int     WriteIntoFile       (const char* filename, char* source[], int lines);
 
 void    WriteDelimeter      (const char* filename);
+
+void    CreateFileInfo      (FileInfo *file_info, const char* filename);
+
+void    PrintFileInfo       (FileInfo *file_info);
 
 
 
@@ -126,6 +139,31 @@ void WriteDelimeter(const char* filename)
     fputc('\n', file);
 
     fclose(file);    
+}
+
+void CreateFileInfo(FileInfo *file_info, const char* filename)
+{
+    file_info->filename = filename;
+    file_info->size = GetFileSize(filename); 
+    file_info->buffer = (char*)calloc(file_info->size + 1, sizeof(char));  // file_size + 1 was made for adding '\0' at the end of the buffer
+
+    ReadFromFile(filename, file_info->buffer, file_info->size);
+
+    file_info->lines = StrCount(file_info->buffer, '\n') + 1;  // there is no '\n' for the last line of the file. That's why +1
+
+    file_info->indexes = (char**)calloc(file_info->lines, sizeof(char*));
+
+    file_info->indexes[0] = file_info->buffer;
+
+    for (int i = 0; i < file_info->lines - 1; i++)
+        file_info->indexes[i + 1] = strchr(file_info->indexes[i], '\n') + sizeof(char);
+}
+
+void PrintFileInfo(FileInfo *file_info)
+{
+    printf("File name: %s\n", file_info->filename);
+    printf("File size: %d\n", file_info->size);
+    printf("Lines in file: %d\n", file_info->lines);
 }
 
 #endif
