@@ -147,11 +147,24 @@ void CreateFileInfo(FileInfo *file_info, const char* filename)
     file_info->size = GetFileSize(filename); 
     file_info->buffer = (char*)calloc(file_info->size + 1, sizeof(char));  // file_size + 1 was made for adding '\0' at the end of the buffer
 
+    if (file_info->buffer == NULL)
+    {
+        printf("calloc returned NULL pointer in CreateFileInfo\n");
+        abort();
+    }
+    //todo: провнрка calloc
+
     ReadFromFile(filename, file_info->buffer, file_info->size);
 
     file_info->lines = StrCount(file_info->buffer, '\n') + 1;  // there is no '\n' for the last line of the file. That's why +1
 
     file_info->indexes = (char**)calloc(file_info->lines, sizeof(char*));
+
+    if (file_info->indexes == NULL)
+    {
+        printf("calloc returned NULL pointer in CreateFileInfo\n");
+        abort();
+    }
 
     file_info->indexes[0] = file_info->buffer;
 

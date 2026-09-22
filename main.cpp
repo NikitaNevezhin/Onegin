@@ -37,7 +37,5 @@ int main(void)
     qsort(OneginInfo.indexes, OneginInfo.lines, sizeof(OneginInfo.indexes[0]), CompareLinesAddress);
     WriteIntoFile(writefile, OneginInfo.indexes, OneginInfo.lines);
 
-    PrintFileInfo(&OneginInfo);
-
     return EXIT_SUCCESS;
 }
