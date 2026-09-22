@@ -8,29 +8,26 @@
 #include <time.h>
 
 #include "OneginHelpers.cpp"
-// #include "OldFileTools.cpp"
-// #include "OldMyqsort.cpp"
-// #include "OldComparators.cpp"
-
 #include "FileTools.cpp"
 #include "Myqsort.cpp"
 #include "Comparators.cpp"
 
 #define NAME_SIZE 100
 
-int main(void)
+int main(int argc, char* argv[])
 {   
-    // printf("Starting in main()...\n");
+    if (argc != 3)
+    {   
+        printf("ERROR: two arguments required!\n"
+                "Fuck you! I need two file names: the one I read from and the one I write into.\n");
+        return EXIT_FAILURE;
+    }
 
-    clock_t start = clock();
-
-    const char readfile[NAME_SIZE] = "RawOneginText.txt";
-    const char writefile[NAME_SIZE] = "SortedOnegin.txt";
+    const char* readfile = argv[1];
+    const char* writefile = argv[2];
 
     FileInfo OneginInfo = {};
-    // printf("I want to create OneginInfo...\n");
     CreateFileInfo(&OneginInfo, readfile);
-    // printf("Created OneginInfo...\n");
 
     ClearFile(writefile);
     
@@ -46,10 +43,6 @@ int main(void)
 
     qsort(OneginInfo.indexes, OneginInfo.lines, sizeof(OneginInfo.indexes[0]), CompareLinesAddress);
     WriteIntoFile(writefile, OneginInfo.indexes, OneginInfo.lines);
-
-    clock_t end = clock();
-
-    printf("Execution time: %lg\n", ((double)(end - start) / CLOCKS_PER_SEC) * 1000.0);
 
     return EXIT_SUCCESS;
 }
