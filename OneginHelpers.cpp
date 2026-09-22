@@ -1,6 +1,6 @@
-#ifndef OneginHelpers_cpp
+#ifndef ONEGINHELPERS_CPP
 
-#define OneginHelpers_cpp
+#define ONEGINHELPERS_CPP
 
 #include <stdio.h>
 #include <stdlib.h>
